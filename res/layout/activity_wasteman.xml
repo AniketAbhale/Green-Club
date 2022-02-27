@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wasteman"
+    android:background="#404040">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#f2f261"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Waste Management"/>
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="@color/black"
+            app:sliderIndicatorUnselectedColor="@color/cardview_light_background"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="1. Solid waste management:- All the biodegradable solid wastes from the College campus is collected regularly and utilized for composting plant. After processing it is used as manure. The non-biodegradable solid waste is supplied to Municipal Corporation for proper disposal.\n
+2. Liquid waste management:- The liquid waste produced is collected at a central location of campus for recycling purpose. The waste water is then transported to collection plant in nearby area. The water is then used for irrigation to plants in the campus. The liquid wastes from different laboratories are disposed under proper procedure in specified areas far away from the building and sport field in the campus.\n
+3. E-Waste management:- The campus has centralized facility to collect e- waste from institutes. E-wastes such as computers, laptops, scanner, printers, CDs, DVDs, televisions, films, etc. are collected centrally and their disposal is taken care of by system department. Donate old workable electronic equipment to other organizations. Reuse of the see equipment's after slight modifications to the original functioning equipment's are also done whenever possible. Empty toners, cartridges, out dated computers and electronic items are sold as scrap to ensure their safe recycling.\n
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Waste can be solid, liquid, or gaseous and each type has different methods of disposal and management. Waste management deals with all types of waste, including industrial, biological, household, municipal, organic, biomedical, radioactive wastes. In some cases, waste can pose a threat to human health.\n
+            Health issues are associated throughout the entire process of waste management. Health issues can also arise indirectly or directly.\n
+            Directly, through the handling of solid waste, and indirectly through the consumption of water, soil and food. Waste is produced by human activity, for example, the extraction and processing of raw materials. waste management is intended to reduce adverse effects of waste on human health, the environment, planetary resources and aesthetics."/>
+
+
+</LinearLayout>
+</ScrollView>

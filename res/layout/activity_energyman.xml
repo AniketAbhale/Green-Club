@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".energyman"
+    android:background="#404040">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#f2f261"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Energy Management"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:text="Energy management includes planning and operation of energy production and energy consumption units as well as energy distribution and storage.\n
+         Objectives are resource conservation, climate protection and cost savings, while the users have permanent access to the energy they need. It is connected closely to environmental management, production management, logistics and other established business functions.\n
+The VDI- Guideline 4602 released a definition which includes the economic dimension:Energy management is the proactive, organized and systematic coordination of procurement, conversion, distribution and use of energy to meet the requirements, taking into account environmental and economic objectives.\n
+It is a systematic endeavor to optimize energy efficiency for specific political, economic, and environmental objectives through Engineering and Management techniques."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/img_5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#f2f261"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Objectives"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:text="The objective of this Preliminary Energy Audit, (Walk Through Audit), is primarily to assess the institutes initiatives for the awareness of Environment consciousness among the students and nourish the environmental education among the students studying in college campus along with assessing the
+progress with respect to previous year’s performance. This objective will be
+achieved by:\n
+1. Identifying a suitable energy performance indicator for existing and target energy use to quantify the potential for energy savings. This also helps to assess the impact of the energy conservation measures in achieving this potential and provide a sense-check of calculations.\n
+2. Identifying a suite of measures, including savings and implementation budget, which together are of sufficient scale and combined payback to create a financially viable project suitable for implementation as a single package of works, where appropriate, non-energy savings, such as water or maintenance, will also be quantified.\n
+3. Identifying additional metering and recording requirements, including any environmental conditions that are likely to be required for a baseline should the measurement and verification of savings be necessary. The associated installation budget will be included.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#f2f261"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Annual Energy Consumption"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="#f2f261"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sanjivani Rural Education Society"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:text="The data regarding electricity consumption was available for the entire campus of Sanjivani Rural Education Society. On similar lines data to be captured for all college buildings for annual energy consumption by installing sub meters for all the institutes in the campus."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/img_6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#f2f261"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Equipment wise Summary: -"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/img_7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#f2f261"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Chart wise distribution: -"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/img_8"/>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/leaf"
+    android:layout_height="match_parent"
+    tools:context=".login">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="7dp">
+  <TextView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:onClick="back"
+      android:background="@drawable/back"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Admin Login"
+      android:gravity="center"
+      android:layout_gravity="center"
+      android:layout_marginTop="190dp"
+      android:textStyle="bold"
+      android:textSize="25dp"
+      android:textColor="#216041"/>
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_marginTop="40dp"
+      android:hint="Enter Admin ID"
+      android:id="@+id/aid"
+      android:background="@color/white"
+      android:layout_height="wrap_content"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:background="@color/white"
+        android:maxLength="10"
+        android:inputType="text"
+        android:layout_height="wrap_content"/></com.google.android.material.textfield.TextInputLayout>
+
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:hint="Password"
+      app:passwordToggleEnabled="true"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:id="@+id/password"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/></com.google.android.material.textfield.TextInputLayout>
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/submit"
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Submit"
+      android:onClick="submit"
+      android:background="@drawable/mybutton"
+      android:textColor="@color/white"
+      android:layout_marginTop="15dp"
+      android:layout_marginBottom="5dp" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:textStyle="bold"
+      android:textColor="#099673"
+      android:layout_gravity="center"
+      android:text="Green Club"/>
+
+
+
+
+</LinearLayout>
+</ScrollView>

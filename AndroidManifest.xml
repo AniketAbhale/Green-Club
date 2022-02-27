@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.green">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Green">
+        <activity
+            android:name=".activity_showevents"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_home"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".upload"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".grpdetails"
+            android:exported="false" />
+        <activity
+            android:name=".energyman"
+            android:exported="false" />
+        <activity
+            android:name=".wasteman"
+            android:exported="false" />
+        <activity
+            android:name=".sanhygiene"
+            android:exported="false" />
+        <activity
+            android:name=".enviawarness"
+            android:exported="false" />
+        <activity
+            android:name=".viewNotice"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".home"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

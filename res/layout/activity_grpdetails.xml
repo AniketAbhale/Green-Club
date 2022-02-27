@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grpdetails"
+    android:background="#659dbd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sanjivani K.B.P Polytechnic,Kopargaon"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Computer Department"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingTop="10dp"
+            android:text="*GREEN CLUB*"
+            android:textAlignment="center"
+            android:textColor="#fbeec1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Faculty Details: -"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:paddingTop="10dp"
+    android:src="@drawable/hod"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="#fbeec1"
+            android:textStyle="italic"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Name:- Mr. G.N.Jorvekar\nDesignation:- Head of Department (HOD)\nContact:- +91xxxxxxxxxx"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:paddingTop="10dp"
+            android:background="#ffd662"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/parjane"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="#fbeec1"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Name:- Mr. V.A.Parjane\nDesignation:- Club Coordinator\nContact:- +91xxxxxxxxxx"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:paddingTop="10dp"
+            android:background="#ffd662"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Member Details: -"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/img_9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="#fbeec1"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Name:- 1. XYZ (TY-A)\n2. XYZ (TY-B)\n3. XYZ (SY-A)\n4. XYZ (SY-B) "/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:paddingTop="10dp"
+            android:background="#ffd662"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="#fbeec1"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Members who haven't joined the Whatsapp Group\nPlease Click Below:-"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000ffff"
+            android:textColor="#fbeec1"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:onClick="link"
+            android:text="Whatsapp Group"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sanhygiene"
+    android:background="#404040">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:paddingTop="10dp"
+    android:textSize="25dp"
+    android:textColor="#f2f261"
+    android:fontFamily="@font/poppins_bold"
+    android:text="Sanitation"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Maintaining proper sanitation and good hygiene practices are necessary for healthy living.\n
+1. Proper disposal of human and animal wastes (solid as well as liquid wastes). It also includes disposal of hazardous wastes from hospitals/industries/other sources.\n
+2. Use and proper maintenance of toilets.\n
+3. Avoiding of open defecation.\n
+Maintaining proper standards of sanitation are necessary for improving and protecting health and wellbeing of the people. Sanitation includes steps to ensure access and use of toilets by everyone. It also includes ways to separate human excreta from coming in contact with other individuals. One of the
+important factors to maintain proper sanitation is to end the practice of ‘open defecation’. This may be done by involving individuals and community members to build, maintain and use toilets. Therefore, sanitation is often associated with our surroundings or environment.
+"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sanitation"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#f2f261"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Hygiene"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Hygiene is a set of practices performed for the preservation of health. Hygiene is often associated with our body. According to the World Health Organization (WHO), “Hygiene refers to conditions and practices that help to maintain
+health and prevent the spread of diseases.” One of the most effective ways to protect ourselves and others from diseases is to adopt good practices of personal hygiene. These may include:\n
+1. Taking bath at least once a day.\n
+2. Washing hands ¾ after using the toilet. ¾ before preparing food or serving food. ¾ before and after eating food. ¾ if someone around you is infected with cold or any other infectious disease. ¾ after handling pets and domestic animals.\n
+3. Brushing teeth in the morning and before going to bed.\n
+4. Wearing clean clothes.\n
+We will now try to find out how improper hygiene can affect our health negatively. Have you come across a person with a strong unpleasant body smell. You must have experienced this in a crowded places such as bus, train, etc. You may have also felt that your body is smelly sometime."/>
+
+
+</LinearLayout>
+</ScrollView>

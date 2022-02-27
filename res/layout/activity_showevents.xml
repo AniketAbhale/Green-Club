@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/imgho"
+    android:layout_height="match_parent"
+    tools:context=".activity_showevents">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="7dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="250dp"
+            android:textColor="#ff0000"
+            android:layout_height="wrap_content"
+            android:text="** Please Enter correct event name and then click on View Button"/>
+        <EditText
+            android:layout_height="56dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:id="@+id/event"
+            android:background="@color/white"
+            android:hint="Enter Event...." />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:id="@+id/choose"
+            android:text="View"
+            android:onClick="view"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/mybutton"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+</ScrollView>
